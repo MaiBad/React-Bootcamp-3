@@ -1,0 +1,36 @@
+.table-data {
+    padding: 0 0.4rem;
+    margin: 1rem;
+}
+
+.etiqueta {
+    font-size: 0.7rem;
+    padding: 0.35rem;
+    border-radius: 0.5rem;
+    font-weight: bold;
+    transition: 0.2s ease-in;
+}
+
+.acciones {
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+    font-size: 1rem;
+}
+
+.accion {
+    cursor: pointer;
+}
+
+@media screen and (max-width: 440px) {
+
+    .table-data {
+        padding: 0 0.2rem;
+        margin: 0.65rem;
+    }
+
+    .etiqueta {
+        font-size: 0.55rem;
+        padding: 0.25rem;
+    }
+}
